@@ -34,7 +34,7 @@ export default function CoinInfoModal({ coin }) {
       </Typography.Paragraph>
       {coin.contractAddress && (
         <Typography.Paragraph>
-          <Typography.Text strong>Contract Adress:</Typography.Text>
+          <Typography.Text strong>Contract Adres:</Typography.Text>
           {coin.contractAddress}
         </Typography.Paragraph>
       )}
